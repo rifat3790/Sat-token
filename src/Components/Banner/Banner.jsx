@@ -37,7 +37,7 @@ const Banner = () => {
   }, [hours, minutes]);
 
   return (
-    <div className="bg-gradient-to-r from-green-700 to-green-950 min-h-screen px-5 md:px-10 lg:px-20 mx-auto">
+    <div className="bg-gradient-to-r from-[#003300] to-[#001a00] min-h-screen px-5 md:px-10 lg:px-20 mx-auto">
       <div className="flex flex-col lg:flex-row justify-around items-center py-10 md:py-20 lg:py-28">
         <div className="max-w-[520px] space-y-4">
           <h1 className="text-5xl md:text-7xl lg:text-9xl font-bebas">

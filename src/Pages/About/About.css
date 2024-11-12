@@ -1,0 +1,10 @@
+.bg-gradient {
+  background: linear-gradient(
+      to right,
+      #065f46,
+      /* green-800 */ #047857,
+      /* green-700 */ #065f46 /* green-800 */
+    ),
+    linear-gradient(to bottom, #047857, /* green-700 */ #064e3b /* green-900 */);
+  background-blend-mode: overlay;
+}
