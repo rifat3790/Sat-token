@@ -42,7 +42,7 @@ const Navbar = () => {
     );
 
     return (
-        <div className={`navbar-wrapper ${isScrolled ? 'bg-[#003300]' : 'bg-[#001a00]'} fixed top-0 left-0 w-full z-50`}>
+        <div className={`navbar-wrapper ${isScrolled ? 'bg-[#003300] shadow-2xl' : 'bg-[#001a00]'} fixed top-0 left-0 w-full z-50`}>
             <div className="navbar border-b-2 border-green-700">
                 <div className="navbar-start">
                     <div className="dropdown">

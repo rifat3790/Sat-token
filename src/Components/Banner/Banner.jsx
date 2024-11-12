@@ -2,6 +2,8 @@ import ProgressBar from "@ramonak/react-progress-bar";
 import { useState, useEffect } from "react";
 import img1 from '../../assets/sat2.jpg';
 import img2 from '../../assets/nav-icon.png';
+import banner2 from '../../assets/second_banner.png';
+import './Banner.css';
 
 const Banner = () => {
   // Initial countdown values
@@ -150,6 +152,42 @@ const Banner = () => {
             <button className="btn w-full mt-5 bg-[#02B81C] text-white border-green-600">Connect Wallet</button>
             
           </div>
+        </div>
+      </div>
+
+
+      {/* Banner second step */}
+      <div className="flex flex-col md:flex-row justify-around items-center lg:pr-64">
+        {/* left side */}
+        <div>
+          <img src={banner2} alt="" />
+        </div>
+
+        {/* right side */}
+        <div className="space-y-4">
+          <h1 className="text-3xl md:text-4xl lg:text-5xl xl:text-6xl font-bebas font-bold">The <span className="text-[#02B81C]">$SAT</span> Token</h1>
+
+          <div className="flex items-center gap-2">
+            <div className="p-2 bg-[#02B81C] rounded-full"></div>
+            <div>Real utility-focused token</div>
+          </div>
+
+          <div className="flex items-center gap-2">
+            <div className="p-2 bg-[#02B81C] rounded-full"></div>
+            <div>Holders decide everything via voting</div>
+          </div>
+
+          <div className="flex items-center gap-2">
+            <div className="p-2 bg-[#02B81C] rounded-full"></div>
+            <div>Weekly raffles and giveaways</div>
+          </div>
+
+          <div className="flex items-center gap-2">
+            <div className="p-2 bg-[#02B81C] rounded-full"></div>
+            <div>Launching staking very soon</div>
+          </div>
+          
+          <button className="btn bg-[#02B81C4D] border-2 border-green-700">Buy Now</button>
         </div>
       </div>
     </div>

@@ -1,0 +1,7 @@
+.list-circle{
+    list-style-type: circle;
+}
+.list-circle li::marker {
+    color: #02B81C;
+    font-size: 24px;
+  }
